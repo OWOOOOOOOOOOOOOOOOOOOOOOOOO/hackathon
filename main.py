@@ -10,7 +10,6 @@ import random
 import tkinter.font as tkfont
 import ast
 
-# Theme settings
 THEMES = {
     "dark": {
         "BG_COLOR": "#1a1a1a",
@@ -42,7 +41,7 @@ THEMES = {
     }
 }
 
-current_theme = "dark"  # Default to dark for modern look
+current_theme = "dark" 
 
 # Apply current theme
 def apply_theme():
